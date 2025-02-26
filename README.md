@@ -10,11 +10,11 @@ Task list includes options to tick (mark as done), edit, and delete tasks.
 
 Tech Stack
 Frontend:
-React, CSS,DOM
+React, CSS, DOM, Axios.
 
 Backend:
 Node.js
 Express.js
-cors
+CORS
 Mongoose
 MongoDB (using MongoDB Compass for data visualization)
