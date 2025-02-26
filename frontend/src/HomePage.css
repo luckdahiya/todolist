@@ -1,0 +1,44 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    background: url('./img5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .homepage h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .homepage p {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .homepage button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .homepage button:hover {
+    background-color: #0056b3;
+  }

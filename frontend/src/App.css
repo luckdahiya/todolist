@@ -1,0 +1,135 @@
+#app-bg {
+  background: url('./img4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  width: 400px; /* Set a fixed width for the circle */
+  height: 400px; /* Set a fixed height for the circle */
+  border-radius: 50%; /* Make it circular */
+  background: linear-gradient(135deg, #ffd700 0%, #ffcc00 50%, #ffa500 100%);  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 55px;
+  margin-right: 600px;
+  padding: 90px;
+  overflow: hidden; /* Ensure content stays within the circle */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 20px;
+  width: 80%; /* Adjust width to fit within the circle */
+}
+
+.add-todo input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-todo button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-todo button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 80%; /* Adjust width to fit within the circle */
+  max-height: 200px; /* Limit height to fit within the circle */
+  overflow-y: auto; /* Add scroll if there are too many tasks */
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item span {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.task-item span.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.buttons {
+  margin-left: 10px;
+}
+
+.buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button.edit {
+  background-color: #28a745;
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
+}
