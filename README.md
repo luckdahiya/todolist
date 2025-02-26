@@ -1,5 +1,4 @@
 To-Do List App
-
 This is a To-Do List Application that allows users to add, edit, and delete tasks for better task management.
 
 Features
@@ -11,11 +10,11 @@ Task list includes options to tick (mark as done), edit, and delete tasks.
 
 Tech Stack
 Frontend:
-HTML, CSS, JavaScript
-React (if applicable)
+React, CSS,DOM
 
 Backend:
 Node.js
 Express.js
+cors
+Mongoose
 MongoDB (using MongoDB Compass for data visualization)
-
